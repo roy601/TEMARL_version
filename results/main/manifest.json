@@ -1,0 +1,560 @@
+{
+  "fingerprint": "bc5ca2c9a5e7a3c7104735ef219aa637317c1580b05251909b61ec92f0f25655",
+  "smoke": false,
+  "study": "main",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "budget": 2000000,
+  "n_test": 500,
+  "env_config": {
+    "beta": 0.2,
+    "p_goal": 0.7,
+    "p_stay": 0.8,
+    "k_capacity": 2,
+    "goal_steps": 1
+  },
+  "encoders": {
+    "Transformer": {
+      "kwargs": {},
+      "params": 67072
+    },
+    "GRU": {
+      "kwargs": {
+        "hidden": 73,
+        "n_layers": 2
+      },
+      "params": 67279
+    },
+    "LSTM": {
+      "kwargs": {
+        "hidden": 73,
+        "n_layers": 2
+      },
+      "params": 67279
+    },
+    "NoHistory": {
+      "kwargs": {},
+      "params": 0
+    }
+  },
+  "ppo": {
+    "lr": 0.0005,
+    "ppo_epochs": 10,
+    "n_minibatch": 1,
+    "clip": 0.2,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "entropy_coef": 0.01,
+    "max_grad_norm": 10.0,
+    "huber_delta": 10.0,
+    "n_envs": 64,
+    "rollout_len": 64,
+    "critic_hidden": 128,
+    "head_hidden": 64,
+    "gate_bias": 2.0,
+    "n_evals": 10,
+    "val_episodes": 300
+  },
+  "pretrain": {
+    "episodes": 3000,
+    "steps": 3000,
+    "batch": 256,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "val_episodes": 400
+  },
+  "device": "cuda",
+  "selection": "Highest mean best-validation dwell across MAPPO seeds; ties use ENCODERS order.",
+  "expected_cells": [
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 0,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 1,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 2,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 3,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 4,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 5,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 6,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 7,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 8,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "seed": 9,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 0,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 1,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 2,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 3,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 4,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 5,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 6,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 7,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 8,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "seed": 9,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 0,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 1,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 2,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 3,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 4,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 5,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 6,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 7,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 8,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "seed": 9,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 0,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 1,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 2,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 3,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 4,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 5,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 6,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 7,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 8,
+      "held_out": null
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "seed": 9,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 0,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 1,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 2,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 3,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 4,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 5,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 6,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 7,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 8,
+      "held_out": null
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "seed": 9,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 0,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 1,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 2,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 3,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 4,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 5,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 6,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 7,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 8,
+      "held_out": null
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "seed": 9,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 0,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 1,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 2,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 3,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 4,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 5,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 6,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 7,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 8,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "seed": 9,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 0,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 1,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 2,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 3,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 4,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 5,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 6,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 7,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 8,
+      "held_out": null
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "seed": 9,
+      "held_out": null
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "encoder": "Transformer",
+  "validation_scores": {
+    "Transformer": 8.761000000000001,
+    "GRU": 8.462333333333332,
+    "LSTM": 8.506333333333334
+  },
+  "rule": "Highest mean best-validation dwell across MAPPO seeds; ties use ENCODERS order."
+}

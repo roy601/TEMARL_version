@@ -1,0 +1,1449 @@
+{
+  "complete": true,
+  "missing": [],
+  "selected_encoder": "Transformer",
+  "smoke": true,
+  "estimates": [
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "dwell",
+      "mean": 3.25,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "depth",
+      "mean": 2.75,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "protected",
+      "mean": 0.375,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "dwell",
+      "mean": 3.75,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "depth",
+      "mean": 3.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "protected",
+      "mean": 0.375,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "dwell",
+      "mean": 3.625,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "depth",
+      "mean": 3.125,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "protected",
+      "mean": 0.375,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "dwell",
+      "mean": 2.625,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "depth",
+      "mean": 2.375,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "protected",
+      "mean": 0.25,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "dwell",
+      "mean": 2.625,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "depth",
+      "mean": 2.375,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "protected",
+      "mean": 0.25,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "dwell",
+      "mean": 3.375,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "depth",
+      "mean": 2.875,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "protected",
+      "mean": 0.375,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "dwell",
+      "mean": 3.375,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "depth",
+      "mean": 2.875,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": null,
+      "metric": "protected",
+      "mean": 0.375,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "dwell",
+      "mean": 2.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "depth",
+      "mean": 2.25,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": null,
+      "metric": "protected",
+      "mean": 0.25,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "dwell",
+      "mean": 5.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "depth",
+      "mean": 4.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "protected",
+      "mean": 0.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "dwell",
+      "mean": 5.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "depth",
+      "mean": 5.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "protected",
+      "mean": 0.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "dwell",
+      "mean": 5.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "depth",
+      "mean": 4.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "protected",
+      "mean": 0.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "dwell",
+      "mean": 5.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "depth",
+      "mean": 4.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "protected",
+      "mean": 0.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "dwell",
+      "mean": 5.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "depth",
+      "mean": 4.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "protected",
+      "mean": 0.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "dwell",
+      "mean": 5.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "depth",
+      "mean": 4.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "protected",
+      "mean": 0.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "dwell",
+      "mean": 5.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "depth",
+      "mean": 4.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S1",
+      "metric": "protected",
+      "mean": 0.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "dwell",
+      "mean": 5.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "depth",
+      "mean": 4.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S1",
+      "metric": "protected",
+      "mean": 0.5,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "dwell",
+      "mean": 6.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "depth",
+      "mean": 4.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "protected",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "dwell",
+      "mean": 8.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "depth",
+      "mean": 6.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "protected",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "dwell",
+      "mean": 7.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "depth",
+      "mean": 5.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "protected",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "dwell",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "depth",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "dwell",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "depth",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "dwell",
+      "mean": 7.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "depth",
+      "mean": 5.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "protected",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "dwell",
+      "mean": 7.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "depth",
+      "mean": 5.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S2",
+      "metric": "protected",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "dwell",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "depth",
+      "mean": 1.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S2",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "dwell",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "depth",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "dwell",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "depth",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "dwell",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "depth",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "dwell",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "depth",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "dwell",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "depth",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "dwell",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "depth",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "dwell",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "depth",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S3",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "dwell",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "depth",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S3",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "dwell",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "depth",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "dwell",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "depth",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "dwell",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "depth",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "dwell",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "depth",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "dwell",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "depth",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "dwell",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "depth",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "dwell",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "depth",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S6",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "dwell",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "depth",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S6",
+      "metric": "protected",
+      "mean": 0.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "dwell",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "depth",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "protected",
+      "mean": 0.3333333333333333,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "dwell",
+      "mean": 3.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "depth",
+      "mean": 3.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "protected",
+      "mean": 0.3333333333333333,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "dwell",
+      "mean": 3.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "depth",
+      "mean": 3.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "protected",
+      "mean": 0.3333333333333333,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "dwell",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "depth",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "Transformer",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "protected",
+      "mean": 0.3333333333333333,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "dwell",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "depth",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "GRU",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "protected",
+      "mean": 0.3333333333333333,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "dwell",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "depth",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "LSTM",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "protected",
+      "mean": 0.3333333333333333,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "dwell",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "depth",
+      "mean": 2.3333333333333335,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "IPPO",
+      "scenario": "S7",
+      "metric": "protected",
+      "mean": 0.3333333333333333,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "dwell",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "depth",
+      "mean": 2.0,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    },
+    {
+      "encoder": "NoHistory",
+      "learner": "MAPPO",
+      "scenario": "S7",
+      "metric": "protected",
+      "mean": 0.3333333333333333,
+      "sd": null,
+      "ci95": null,
+      "n": 1
+    }
+  ],
+  "tests": []
+}
