@@ -1,0 +1,44 @@
+{
+ "config": {
+  "beta": 0.2,
+  "p_goal": 0.7,
+  "p_stay": 0.8,
+  "k_capacity": 2,
+  "goal_steps": 1
+ },
+ "provenance": {
+  "calibrate_sha": "522b193c70ae5690",
+  "gates_sha": "0d77a16a69f4463a",
+  "frozen": "351bf22ec2b4e86f",
+  "date": "2026-09-19 00:07:31",
+  "grid": {
+   "beta": [
+    0.2,
+    0.4
+   ],
+   "p_goal": [
+    0.5,
+    0.7
+   ],
+   "p_stay": [
+    0.6,
+    0.8
+   ]
+  },
+  "fixed": {
+   "k_capacity": 2,
+   "goal_steps": 1
+  },
+  "thresholds": {
+   "G1_headroom_abs": 1.0,
+   "G1_headroom_rel": 0.25,
+   "G2_coordination_rel": 0.15,
+   "G3_intent_rel": 0.1,
+   "G4_sequence_rel": 0.03,
+   "G5_ci_lower_gt": 0.0
+  },
+  "n_sel": 400,
+  "n_eval": 1000,
+  "n_fixed_sel": 150
+ }
+}
